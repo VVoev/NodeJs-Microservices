@@ -1,8 +1,7 @@
 const server = require('express')();
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 const bodyParser = require('body-parser');
-const { makeExecutableSchema } = require('graphql-tools');
-const port = 3000;
+const { port } = require('./config/index')
 const schema = require('./data/schema');
 
 server
