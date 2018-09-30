@@ -10,4 +10,4 @@ require('./dbUtils')(config);
 require('./routes/get')(server);
 require('./routes/post')(server);
 
-server.listen(port, () => console.log(`Listening on por sasat ${port}`));
+server.listen(port, () => console.log(`Listening on port ${port}`));
