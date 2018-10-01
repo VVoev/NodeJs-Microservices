@@ -18,7 +18,8 @@ module.exports = {
       env: {
         NODE_ENV: 'development',
         PORT: 3000,
-        SERVICE_DB_PORT: 4000
+        SERVICE_DB_PORT: 4000,
+        Q_URI: 'amqp://iiazuqea:E57QvFIMwN1AFcr504vRbGXszYXBFIHg@raven.rmq.cloudamqp.com/iiazuqea'
       }
     },
 
